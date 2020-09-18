@@ -9,7 +9,8 @@ const x = c => Math.round( c * canvas.with / state.cols)
 const y = r => Math round( r * canvas.height / state.rows)
 
 //game loop draw
-const draw = () =>{
+const draw = () =>{ // A COMPLETER 
+
   //clear
   ctx.fillStyle = "#B9BAB5"
   ctx.fillRect(0,0,canvas.width, canvas.height)
