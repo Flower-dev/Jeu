@@ -53,4 +53,4 @@ const rndPos = table =>({
 
 const enqueue = (state, move) => validMove(move)(state) ? merge(state)({moves: state.moves.concat([move])}) : state
 
-module.exports = (EAST, NORTH, WEST, SOUTH, initialState, enqueue, next,)
+module.exports = (EAST, NORTH, WEST, SOUTH, initialState, enqueue, next)

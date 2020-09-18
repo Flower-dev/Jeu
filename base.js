@@ -4,7 +4,7 @@ const dropLast = xs.slice(0,xs.length -1)
 const id = x => x
 const k = x => y => x
 const map = f => xs => xs.map(f)
-const mapi = f => xs => xs.map()(w, i) => f(x)(i))
+const mapi = f => xs => xs.map()(w, i) => f((x)(i))
 const merge = o1 => o2 => Object.assign({},o1,o2)
 const mod = x => y => ((y % x ) + x) % x
 const objOf = k => v => ({[k]:v})
