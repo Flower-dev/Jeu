@@ -1,18 +1,17 @@
-
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>JeuSnake</title>
-        <link rel="stylesheet" href="css/index.css">
-        <script>require=()=>({}); module=() => module.exports=() => ({})</script>
-    </head>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>JeuSnake</title>
+    <link rel="stylesheet" href="css/custom.css">
+  <style>
+      canvas {background: #3B3D3D}
+  </style>
+  <script src="js/snake.js"></script>
+  </head>
 
-    <body>
-        <canvas id="canvas" width="700" height="500"></canvas>
-        <script src="base.js"></script>
-        <script src="snake.js"></script>
-        <script src="web.js"></script>
-
-    </body>
+  <body onload="init();">
+      <canvas id="myCanvas" width="400" height="400">
+      </canvas>
+  </body>
 </html>
