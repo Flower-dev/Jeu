@@ -44,13 +44,13 @@ function init() {
 function loadImages() {
 
     head = new Image();
-    head.src = 'head.png';
+    head.src = 'img/head.png';
 
     ball = new Image();
-    ball.src = 'dot.png';
+    ball.src = 'img/dot.png';
 
     apple = new Image();
-    apple.src = 'apple.png';
+    apple.src = 'img/apple.png';
 }
 
 function createSnake() {
